@@ -1,0 +1,33 @@
+{
+  "frameLength": 242,
+  "computedDataRate": 0,
+  "async_mode": false,
+  "captureDateMillis": 0,
+  "desired_capture_rx_async_size_bytes": 4000,
+  "rx_rssi_threshold": -64,
+  "desired_capture_rx_sync_size_bytes": 512,
+  "channelBandwidth": 300,
+  "deviation": 0,
+  "frequency": 433913879,
+  "modulation": 48,
+  "samplingRate": 2500,
+  "chunks": [
+    {
+      "hex_data": "",
+      "datarate": 2500,
+      "split_reason": "NO_REASON",
+      "hex_data_as_bytes": [],
+      "already_transmitted": false,
+      "captured_ts": 1709141112983,
+      "fixe_code_analysis_names": [],
+      "selected_regex_analysis": "",
+      "task_id": "",
+      "type": "RxSyncDataChunk",
+      "uuid": "c315bb6e-f4a3-4cb8-a34f-2c98fdc390a5"
+    }
+  ],
+  "durations_stream": [],
+  "configName": "autosave_config",
+  "rawHexStream": "",
+  "repeat": 1
+}

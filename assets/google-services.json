@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902815394257",
+    "project_id": "triage-and-appointment-setting",
+    "storage_bucket": "triage-and-appointment-setting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902815394257:android:382a2ac2cb0393c1c798f0",
+        "android_client_info": {
+          "package_name": "com.everheartdigitaldev.bmwtf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARdhaPBfgVVnijvqUbx1jhB90WFknfuaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

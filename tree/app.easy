@@ -805,11 +805,84 @@
         "_type": "App.Settings",
         "debugBuild": {
             "_id_": 173,
-            "_type": "App.Settings.DebugBuild"
+            "_type": "App.Settings.DebugBuild",
+            "useReleaseKeystore": {
+                "_id_": 406,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "includeAssets": {
+                "_id_": 405,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "releaseBuild": {
             "_id_": 174,
             "_type": "App.Settings.ReleaseBuild"
+        }
+    },
+    "adMob": {
+        "_id_": 378,
+        "_type": "AdMob",
+        "appId": {
+            "_id_": 379,
+            "_type": "String",
+            "value_": "ca-app-pub-5795959082463009~4575759935"
+        },
+        "testDevices": {
+            "_id_": 381,
+            "_type": "List",
+            "list_": [
+                {
+                    "_id_": 385,
+                    "_type": "AdMob.TestDevice",
+                    "name": {
+                        "_id_": 388,
+                        "_type": "String",
+                        "value_": "Pixel 7"
+                    },
+                    "deviceId": {
+                        "_id_": 387,
+                        "_type": "String",
+                        "value_": "\na1b49a8b-9319-40af-bb28-10ca1ad1abe1"
+                    }
+                },
+                {
+                    "_id_": 390,
+                    "_type": "AdMob.TestDevice",
+                    "name": {
+                        "_id_": 393,
+                        "_type": "String",
+                        "value_": "Orbic"
+                    },
+                    "deviceId": {
+                        "_id_": 392,
+                        "_type": "String",
+                        "value_": "4b7fea69-92c1-4459-bcfa-3531d3597ba9"
+                    }
+                }
+            ]
+        },
+        "adUnits": {
+            "_id_": 383,
+            "_type": "List",
+            "list_": [
+                {
+                    "_id_": 395,
+                    "_type": "AdMob.AdUnit",
+                    "name": {
+                        "_id_": 398,
+                        "_type": "String",
+                        "value_": "Open App"
+                    },
+                    "unitId": {
+                        "_id_": 396,
+                        "_type": "String",
+                        "value_": "ca-app-pub-5795959082463009\/1449529995"
+                    }
+                }
+            ]
         }
     },
     "packaging": {
@@ -874,8 +947,8 @@
         "packageName": {
             "_id_": 188,
             "_type": "String",
-            "value_": "com.aaappps.adaptive.navigation.webview"
+            "value_": "com.everhearydigitaldev.bmw"
         }
     },
-    "_abVer": 223
+    "_abVer": 224
 }
