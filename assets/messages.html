@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta name="color-scheme" content="dark light">  
+    <link rel="stylesheet" type="text/css" href="file:///assets/main.css">
+    <script src="file:///assets/android.js"></script>
+</head>
+  
+<script>
+/* 
+  For this to work,
+  the 'reflect' API must be included
+  in the WebView node 
+  (includeApi field)
+*/
+function setBadge() {
+  android.control.execute("views.nav.getOrCreateBadge(R.id.messages).setNumber(1);");
+}  
+function clearBadge() {
+  android.control.execute("views.nav.removeBadge(R.id.messages)");
+}  
+</script>  
+<body>
+<div class="centerInScreen">
+  <h1>Messages</h1>
+<div class="buttonBar">  
+  <button onclick="setBadge()">Set</button>
+  <button onclick="clearBadge()">Clear</button>  
+</div>
+  
+</div>
+</body>
+</html>
